@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+The starwars API allows us to access various endpoints to grab info about various characters, planet, and other neat things about the star wars universe. One of the best things about this API is that it's free. It costs nothing to use. No registration for a key code is required.
+
+This app interacts with the starwars api to generate a team of three members. Click "Generate Your Team" to get three randomly selected starwars characters, and click on the cards to switch characters if you want to trade characters. 
+
 ## Build Setup
 
 ``` bash
@@ -16,7 +20,3 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-The starwars API allows us to access various endpoints to grab info about various characters, planet, and other neat things about the star wars universe. One of the best things about this API is that it's free. It costs nothing to use. No registration for a key code is required.
-
-This app interacts with the starwars api to  

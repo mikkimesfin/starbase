@@ -1,6 +1,15 @@
 <template>
-  <div class="" @click="switchCharacter">
-    {{character}}
+  <div class="col-md-4" @click="switchCharacter">
+    <div class="character-card">
+      <div class="card-block">
+        <h4 class="card-title">{{character.name}}</h4>
+        <p class="card-text">Height: {{character.height}}</p>
+        <p class="card-text">Mass: {{character.mass}}</p>
+        <p class="card-text">Hair Color: {{character.hair_color}}</p>
+        <p class= "card-text">Eye Color: {{character.eye_color}}</p>
+
+      </div>
+    </div>
   </div>
 </template>
 
@@ -24,7 +33,7 @@ export default {
     switchCharacter() {
       let random_id = Math.floor(Math.random() * 83) + 1
       this.fetchCharacter(random_id)
-      //recall the function wth the new id.
+      //recall the function wth the new id
     }
   },
   created() {
